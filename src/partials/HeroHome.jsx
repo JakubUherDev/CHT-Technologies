@@ -1,12 +1,20 @@
 import React, { useState } from 'react';
 import Modal from '../utils/Modal';
-
+import { scroller } from "react-scroll";
 import HeroImage from '../images/filtracja.jpg';
-import {Link} from "react-router-dom";
 
 function HeroHome() {
 
   const [videoModalOpen, setVideoModalOpen] = useState(false);
+
+  const scrollToSection = () => {
+    scroller.scrollTo("goals", {
+      duration: 600,
+      delay: 0,
+      smooth: "easeInOutQuart",
+    });
+  };
+
 
   return (
     <section className="relative">
@@ -41,10 +49,10 @@ function HeroHome() {
               <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Oferujemy najwyższą jakość usług technologicznych i laboratoryjnych, gwarantowaną certyfikatami.</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
-                  <a className="btn text-white bg-green-600 hover:bg-green-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Skontaktuj sie z nami</a>
+                  <a className="btn text-white bg-green-600 hover:bg-green-700 w-full mb-4 sm:w-auto sm:mb-0" href="tel:+48669907857">Skontaktuj sie z nami</a>
                 </div>
                 <div>
-                  <Link className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" to="#goals">O Nas</Link>
+                  <button className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" onClick={scrollToSection}>O Nas</button>
                 </div>
               </div>
             </div>
