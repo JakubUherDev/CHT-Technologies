@@ -65,7 +65,7 @@ function FeaturesBlocks() {
               <h4 className="text-xl text-center font-bold leading-snug tracking-tight mb-1">W uzyskaniu zezwoleń Głównego Inspektora Farmaceutycznego</h4>
             </div>
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-              <h4 className="text-xl text-center font-bold leading-snug tracking-tight mb-1">W usuwaniu THC przy zastosowaniu unikalnego know-how naszej firmy</h4>
+              <h4 className="text-xl text-center font-bold leading-snug tracking-tight mb-1">W usuwaniu THC przy zastosowaniu unikalnego <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-teal-300">know-how</span> naszej firmy</h4>
             </div>
 
             <div className={'mx-auto'}>
