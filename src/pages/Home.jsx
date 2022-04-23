@@ -20,9 +20,7 @@ function Home() {
       {/*  Page content */}
       <main className="flex-grow">
 
-        {/*  Page sections */}
         <HeroHome />
-        {/*<ContentBlockImageWithText/>*/}
         <FeatureList />
         <FeaturesHome />
         <FeaturesBlocks />
