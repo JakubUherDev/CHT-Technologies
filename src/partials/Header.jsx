@@ -36,7 +36,7 @@ function Header() {
               {/*  <Link to="/signin" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Sign in</Link>*/}
               {/*</li>*/}
               <li>
-                <Link to="/signup" className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 ml-3 ">
+                <Link to="/" className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 ml-3 ">
                   <span className={'font-bold'}>Zadzwon do nas</span>
                 </Link>
               </li>
