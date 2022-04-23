@@ -4,9 +4,6 @@ import Transition from '../utils/Transition';
 import FeaturesBg from '../images/badania.jpg';
 import FeaturesBg1 from '../images/filtracja.jpg';
 import FeaturesBg2 from '../images/uprawy.png';
-import FeaturesElement from '../images/icons/experiment.svg';
-import FeaturesElement1 from '../images/icons/technology.svg';
-import FeaturesElement2 from '../images/icons/extract.svg';
 
 function Features() {
 

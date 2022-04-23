@@ -1,6 +1,10 @@
 import React from 'react';
 
 import TestimonialImage from '../images/testimonial.jpg';
+import ShimLogoImage from '../images/shim-pol-logo-duze.png';
+import LymeLogoImage from '../images/lyme-logo.jpg';
+import LawLogoImage from '../images/gif-logo-bez-tla.png';
+import EihaLogoImage from '../images/eiha-logo.png';
 
 function Testimonials() {
   return (
@@ -40,24 +44,24 @@ function Testimonials() {
             <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
 
 
-              <img className="max-w-full fill-current text-gray-400" width="124" height="24" src="../images/eiha-logo.png"/>
+              <img className="max-w-full fill-current text-gray-400" width="124" height="24" src={EihaLogoImage}/>
 
             </div>
 
             {/* Item */}
             <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
-              <img className="max-w-full fill-current text-gray-400" width="124" height="24" src="../images/gif-logo-bez-tla.png"/>
+              <img className="max-w-full fill-current text-gray-400" width="124" height="24" src={LawLogoImage}/>
             </div>
 
             {/* Item */}
             <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
-              <img className="max-w-full fill-current text-gray-400" width="124" height="24" src="../images/lyme-logo.jpg"/>
+              <img className="max-w-full fill-current text-gray-400" width="124" height="24" src={LymeLogoImage}/>
 
             </div>
 
             {/* Item */}
             <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
-              <img className="max-w-full fill-current text-gray-400" width="124" height="24" src="../images/shim-pol-logo-duze.png"/>
+              <img className="max-w-full fill-current text-gray-400" width="124" height="24" src={ShimLogoImage}/>
             </div>
 
 
