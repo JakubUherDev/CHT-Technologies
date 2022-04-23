@@ -44,7 +44,7 @@ function HeroHome() {
                   <a className="btn text-white bg-green-600 hover:bg-green-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Skontaktuj sie z nami</a>
                 </div>
                 <div>
-                  <Link className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" to="/o-nas">O Nas</Link>
+                  <Link className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" to="#goals">O Nas</Link>
                 </div>
               </div>
             </div>
