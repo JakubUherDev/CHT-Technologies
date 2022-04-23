@@ -41,7 +41,7 @@ function App() {
         <Route exact path="/o-nas" element={<AboutUs />} />
         {/*<Route path="/signin" element={<SignIn />} />*/}
         {/*<Route path="/signup" element={<SignUp />} />*/}
-        <Route path="/reset-password" element={<ResetPassword />} />
+        {/*<Route path="/reset-password" element={<ResetPassword />} />*/}
       </Routes>
     </>
   );
