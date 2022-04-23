@@ -17,7 +17,7 @@ function HeroHome() {
 
 
   return (
-    <section className="relative">
+    <section className="relative" id={"hero-home"}>
 
       {/* Illustration behind hero content */}
       <div className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none" aria-hidden="true">
