@@ -40,24 +40,24 @@ function Testimonials() {
             <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
 
 
-              <img className="max-w-full fill-current text-gray-400" width="124" height="24" src="../src/images/eiha-logo.png"/>
+              <img className="max-w-full fill-current text-gray-400" width="124" height="24" src="../images/eiha-logo.png"/>
 
             </div>
 
             {/* Item */}
             <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
-              <img className="max-w-full fill-current text-gray-400" width="124" height="24" src="../src/images/gif-logo-bez-tla.png"/>
+              <img className="max-w-full fill-current text-gray-400" width="124" height="24" src="../images/gif-logo-bez-tla.png"/>
             </div>
 
             {/* Item */}
             <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
-              <img className="max-w-full fill-current text-gray-400" width="124" height="24" src="../src/images/lyme-logo.jpg"/>
+              <img className="max-w-full fill-current text-gray-400" width="124" height="24" src="../images/lyme-logo.jpg"/>
 
             </div>
 
             {/* Item */}
             <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
-              <img className="max-w-full fill-current text-gray-400" width="124" height="24" src="../src/images/shim-pol-logo-duze.png"/>
+              <img className="max-w-full fill-current text-gray-400" width="124" height="24" src="../images/shim-pol-logo-duze.png"/>
             </div>
 
 
