@@ -1,10 +1,15 @@
 import { defineConfig } from 'vite'
 import postcss from './postcss.config.js'
 import react from '@vitejs/plugin-react'
-const { resolve } = require('path')
+import { resolve } from 'path'
+
+
+const root = resolve(__dirname, '')
+const outDir = resolve(__dirname, 'dist')
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  root,
   define: {
     'process.env': process.env
   },
@@ -23,9 +28,13 @@ export default defineConfig({
     ],
   },
   build: {
+    outDir,
+    emptyOutDir: true,
     rollupOptions: {
-      main: resolve(__dirname, 'index.html'),
-      kontakt: resolve(__dirname, 'kontakt/index.html')
+      input: {
+        main: resolve(root, 'index.html'),
+        kontakt: resolve(root, 'kontakt', 'index.html')
+      }
     },
     commonjsOptions: {
       transformMixedEsModules: true,
