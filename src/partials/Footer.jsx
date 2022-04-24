@@ -71,7 +71,7 @@ function Footer() {
             <h6 className="text-gray-800 font-medium mb-2">WSPÓŁPRACUJ Z NAMI</h6>
             <ul className="text-sm">
               <li className="mb-2">
-                <Link to="/contact" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Kontakt</Link>
+                <Link to="/kontakt" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Kontakt</Link>
               </li>
               <li className="mb-2">
                 <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">B2B</Link>
