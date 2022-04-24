@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite'
 import postcss from './postcss.config.js'
 import react from '@vitejs/plugin-react'
+const { resolve } = require('path')
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -22,6 +23,10 @@ export default defineConfig({
     ],
   },
   build: {
+    rollupOptions: {
+      main: resolve(__dirname, 'index.html'),
+      kontakt: resolve(__dirname, 'kontakt/index.html')
+    },
     commonjsOptions: {
       transformMixedEsModules: true,
     }
