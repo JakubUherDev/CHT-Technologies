@@ -29,7 +29,7 @@ function ContactUs() {
                     <section className="py-24 bg-white overflow-hidden">
                         <div className="container px-4 mx-auto">
                             <div className="flex flex-wrap -mx-4 items-center">
-                                <div className="w-full md:w-1/2 px-4 animate__animated animate__fadeInLeft">
+                                <div className="order-last md:order-none w-full md:w-1/2 px-4 animate__animated animate__fadeInLeft">
                                     <div className="relative max-w-max mx-auto">
                                         <Lottie
                                             loop
@@ -47,7 +47,7 @@ function ContactUs() {
                                             </p>
                                         </h2>
                                         <p className={'text-xl text-center'}>
-                                            Skontaktuj sie z nami
+                                            Jesteśmy gotowi, aby wesprzeć każdego legalnie funkcjonującego przedsiębiorcę na rynku polskim, UE oraz światowym w zakresie działalności związanej z produktami konopnymi
                                         </p>
 
                                     </div>
@@ -83,8 +83,8 @@ function ContactUs() {
                                     </div>
                                     <p className={'text-center text-emerald-50'}>
                                         Adres: ul. Poniatowskiego 49<br/>
-                                        e: sales@completehemptechnologies.eu<br/>
-                                        t: +48 669 907 857
+                                        e: <a href={'mailto:sales@completehemptechnologies.eu'}>sales@completehemptechnologies.eu</a> <br/>
+                                        t: <a href={'tel:+48669907857'}>+48 669 907 857</a>
                                     </p>
                                 </div>
                                 <div className="w-full md:w-1/2 px-4 animate__animated animate__flipInY animate__delay-1s">
@@ -117,7 +117,7 @@ function ContactUs() {
                                     </div>
                                     <p className={'text-center'}>
                                         ul. Rydygiera 8<br/>
-                                        e: sales@completehemptechnologies.eu
+                                        e: <a href={'mailto:sales@completehemptechnologies.eu'}>sales@completehemptechnologies.eu</a>
                                     </p>
                                 </div>
                                 <div className="w-full md:w-1/2 px-4">
@@ -161,8 +161,8 @@ function ContactUs() {
                                     </div>
                                     <p className={'text-center text-emerald-50'}>
                                         Adres: ul. Poniatowskiego 49<br/>
-                                        e: sales@completehemptechnologies.eu<br/>
-                                        t: +48 669 907 857
+                                        e: <a href={'mailto:sales@completehemptechnologies.eu'}>sales@completehemptechnologies.eu</a> <br/>
+                                        t: <a href={'tel:+48669907857'}>+48 669 907 857</a>
                                     </p>
                                 </div>
                                 <div className="w-full md:w-1/2 px-4">
