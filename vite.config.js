@@ -33,7 +33,8 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(root, 'index.html'),
-        kontakt: resolve(root, 'kontakt', 'index.html')
+        kontakt: resolve(root, 'kontakt', 'index.html'),
+        b2b: resolve(root, 'b2b', 'index.html')
       }
     },
     commonjsOptions: {

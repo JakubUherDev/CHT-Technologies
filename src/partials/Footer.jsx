@@ -74,7 +74,7 @@ function Footer() {
                 <Link to="/kontakt" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Kontakt</Link>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">B2B</Link>
+                <Link to="/b2b" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">B2B</Link>
               </li>
               <li className="mb-2">
                 <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">White Label</Link>

@@ -56,19 +56,6 @@ function Kontakt() {
                         </div>
                     </section>
 
-
-                    {/*<section className="text-white bg-gray-900">*/}
-                    {/*    <div className="max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 mx-auto">*/}
-                    {/*        <div className="max-w-xl">*/}
-                    {/*            <h2 className="text-3xl font-bold sm:text-4xl">Co nas wyróżnia?</h2>*/}
-
-                    {/*            <p className="mt-4 text-gray-300">*/}
-                    {/*                Complete Hemp Technologies to przedsiębiorstwo badawczo-produkcyjno-wdrożeniowe, którego działalnością jest opracowywanie i wdrażanie na rynek innowacyjnych produktów pochodzenia konopnego oraz autorskich rozwiązań technologicznych w zakresie przetwórstwa konopi włóknistych.*/}
-                    {/*            </p>*/}
-                    {/*        </div>*/}
-                    {/*    </div>*/}
-                    {/*</section>*/}
-
                     <section className="py-24 bg-white overflow-hidden bg-gray-900">
                         <div className="container px-4 mx-auto">
                             <div className="flex flex-wrap -mx-4 items-center">

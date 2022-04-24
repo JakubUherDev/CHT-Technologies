@@ -10,11 +10,9 @@ import './css/style.scss';
 import AOS from 'aos';
 
 import Home from './pages/Home';
-import SignIn from './pages/SignIn';
-import SignUp from './pages/SignUp';
-import ResetPassword from './pages/ResetPassword';
 import AboutUs from "./pages/AboutUs";
 import Kontakt from "./pages/Kontakt";
+import B2B from "./pages/B2B";
 
 function App() {
 
@@ -41,6 +39,7 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route exact path="/o-nas" element={<AboutUs />} />
         <Route exact path="/kontakt" element={<Kontakt />} />
+        <Route exact path="/B2B" element={<B2B />} />
         {/*<Route path="/signin" element={<SignIn />} />*/}
         {/*<Route path="/signup" element={<SignUp />} />*/}
         {/*<Route path="/reset-password" element={<ResetPassword />} />*/}
