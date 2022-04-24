@@ -1,15 +1,24 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import {Link, useNavigate , useLocation} from 'react-router-dom';
 import {scroller} from "react-scroll";
+
 
 function Footer() {
 
+  const location = useLocation()
+
+  let navigate = useNavigate();
   const scrollToEl = (elId) => {
-    scroller.scrollTo(elId, {
-      duration: 600,
-      delay: 0,
-      smooth: "easeInOutQuart",
-    });
+    if (location.pathname !== '/') {
+      navigate('/')
+    }
+    else {
+      scroller.scrollTo(elId, {
+        duration: 600,
+        delay: 0,
+        smooth: "easeInOutQuart",
+      });
+    }
   };
 
   return (
@@ -61,6 +70,9 @@ function Footer() {
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h6 className="text-gray-800 font-medium mb-2">WSPÓŁPRACUJ Z NAMI</h6>
             <ul className="text-sm">
+              <li className="mb-2">
+                <Link to="/contact" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Kontakt</Link>
+              </li>
               <li className="mb-2">
                 <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">B2B</Link>
               </li>

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Modal from '../utils/Modal';
 import { scroller } from "react-scroll";
-import HeroImage from '../images/filtracja.jpg';
+import HeroImage from '../images/img/filtracja.jpg';
 
 function HeroHome() {
 

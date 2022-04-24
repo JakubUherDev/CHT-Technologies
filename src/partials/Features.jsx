@@ -1,9 +1,9 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Transition from '../utils/Transition';
 
-import FeaturesBg from '../images/badania.jpg';
-import FeaturesBg1 from '../images/filtracja.jpg';
-import FeaturesBg2 from '../images/uprawy.png';
+import FeaturesBg from '../images/img/badania.jpg';
+import FeaturesBg1 from '../images/img/filtracja.jpg';
+import FeaturesBg2 from '../images/img/uprawy.png';
 
 function Features() {
 

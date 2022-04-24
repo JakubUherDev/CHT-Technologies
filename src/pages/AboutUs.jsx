@@ -6,6 +6,9 @@ import Testimonials from "../partials/Testimonials";
 import Newsletter from "../partials/Newsletter";
 import Footer from "../partials/Footer";
 
+import animationJson from '../images/animations/lf20_djlwtcur.json'
+import Lottie from "react-lottie-player";
+
 function AboutUs() {
     return (
         <div className="flex flex-col min-h-screen overflow-hidden">
@@ -16,44 +19,30 @@ function AboutUs() {
             {/*  Page content */}
             <main className="flex-grow">
 
+
                 {/*  Page sections */}
                 {/*<HeroHome />*/}
 
                 <div>
                     <section className="py-24 bg-white overflow-hidden">
                         <div className="container px-4 mx-auto">
-                            <div className="flex flex-wrap -mx-4">
-                                <div className="w-full md:w-1/2 px-4 mb-20 lg:mb-0">
-                                    <div className="max-w-md mx-auto">
-                                        <h2 className="mb-8 text-4xl md:text-5xl font-heading font-bold text-coolGray-900 md:leading-15">
+                            <div className="flex flex-wrap -mx-4 items-center">
+                                <div className="w-full md:w-1/2 px-4 md:mb-20 lg:mb-0">
+                                    <div className="max-w-md mx-auto ">
+                                        <h2 className="md:mb-8 text-center  text-4xl md:text-5xl font-heading font-bold text-coolGray-900 md:leading-15">
                                             <p>ZAKŁAD PRZETWÓRSTWA <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-teal-300">KONOPI</span></p>
                                         </h2>
-                                        <ul className="mb-8">
-                                            <li className="flex items-center mb-4">
-                                                <img className="mr-3"
-                                                     src="flex-ui-assets/elements/cta/checkbox-green.svg" alt=""/>
-                                                <span className="text-lg md:text-xl font-heading text-coolGray-500">Nowoczesny</span>
-                                            </li>
-                                            <li className="flex items-center mb-4">
-                                                <img className="mr-3"
-                                                     src="flex-ui-assets/elements/cta/checkbox-green.svg" alt=""/>
-                                                <span className="text-lg md:text-xl font-heading text-coolGray-500">Profesjonalny</span>
-                                            </li>
-                                            <li className="flex items-center">
-                                                <img className="mr-3"
-                                                     src="flex-ui-assets/elements/cta/checkbox-green.svg" alt=""/>
-                                                <span className="text-lg md:text-xl font-heading text-coolGray-500">Certyfikowany</span>
-                                            </li>
-                                        </ul>
+
                                     </div>
                                 </div>
                                 <div className="w-full md:w-1/2 px-4">
                                     <div className="relative max-w-max mx-auto">
-                                        <img
-                                            className="absolute bottom-0 left-0 -mb-6 lg:-mb-10-ml-6 lg:-ml-12 w-20 lg:w-auto"
-                                            src="flex-ui-assets/elements/dots3-green.svg" alt=""/>
-                                        <img className="relative"
-                                             src="src/images/uprawy.png" alt=""/>
+                                        <Lottie
+                                            loop
+                                            animationData={animationJson}
+                                            play
+                                            style={{ width: '100%', height: '100%' }}
+                                        />
                                     </div>
                                 </div>
                             </div>

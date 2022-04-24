@@ -1,10 +1,10 @@
 import React from 'react';
 
-import TestimonialImage from '../images/testimonial.jpg';
-import ShimLogoImage from '../images/shim-pol-logo-duze.png';
-import LymeLogoImage from '../images/lyme-logo.jpg';
-import LawLogoImage from '../images/gif-logo-bez-tla.png';
-import EihaLogoImage from '../images/eiha-logo.png';
+import TestimonialImage from '../images/img/testimonial.jpg';
+import ShimLogoImage from '../images/img/shim-pol-logo-duze.png';
+import LymeLogoImage from '../images/img/lyme-logo.jpg';
+import LawLogoImage from '../images/img/gif-logo-bez-tla.png';
+import EihaLogoImage from '../images/img/eiha-logo.png';
 
 function Testimonials() {
   return (

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import HeroImage from "../images/hero-image.png";
-import Logo from "../images/logo.svg";
+import HeroImage from "../images/img/hero-image.png";
+import Logo from "../images/img/logo.svg";
 
 function Header() {
 

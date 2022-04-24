@@ -1,5 +1,5 @@
 import React from 'react';
-import BGImage from '../images/c.svg';
+import BGImage from '../images/img/c.svg';
 
 function Newsletter() {
   return (
