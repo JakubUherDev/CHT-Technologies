@@ -9,7 +9,7 @@ import labProductionAnimationJson from '../images/animations/lf30_editor_x3lskgv
 
 import Lottie from "react-lottie-player";
 
-function ContactUs() {
+function Kontakt() {
     return (
         <div className="flex flex-col min-h-screen overflow-hidden">
 
@@ -206,4 +206,4 @@ function ContactUs() {
     );
 }
 
-export default ContactUs
+export default Kontakt

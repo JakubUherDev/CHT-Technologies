@@ -14,7 +14,7 @@ import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 import ResetPassword from './pages/ResetPassword';
 import AboutUs from "./pages/AboutUs";
-import ContactUs from "./pages/ContactUs";
+import Kontakt from "./pages/Kontakt";
 
 function App() {
 
@@ -40,7 +40,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/o-nas" element={<AboutUs />} />
-        <Route exact path="/kontakt" element={<ContactUs />} />
+        <Route exact path="/kontakt" element={<Kontakt />} />
         {/*<Route path="/signin" element={<SignIn />} />*/}
         {/*<Route path="/signup" element={<SignUp />} />*/}
         {/*<Route path="/reset-password" element={<ResetPassword />} />*/}
